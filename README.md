@@ -17,12 +17,13 @@ The data I used for this project was:
       - [tn.movie.budgets](https://github.com/rcasey106/dsc-phase-1-project-v2-3/tree/master/zippedData)
 
 ## Methodology & Results:
-To find the most profitable genres, I decided to merge all three data frames together to get all the data into one data frame. I then dropped the null values from the dataset.  I used the median because the histogram showed an abnormal distribution. I found the most profitable domestic and most profitable foreign genres.
- 
- 
+To find the most profitable genres, I decided to merge all three data frames together to get all the data into one data frame. I then dropped the null values from the dataset.  I used the median because alt textthe histogram showed an abnormal distribution. I found the most profitable domestic and most profitable foreign genres.
+![alt text](https://raw.githubusercontent.com/rcasey106/dsc-phase-1-project-v2-3/master/foreign.png)
+![alt text](https://raw.githubusercontent.com/rcasey106/dsc-phase-1-project-v2-3/master/domestic.png)
+
 To find the most profitable writers and directors, I merged the genre dataset with the crew dataset. I dropped the duplicates. Then, using descriptive statistics, used the mean to find the writers and directors with most profitable movies. 
 To find the most profitable months to release a movie, I created a new data frame to include the release date and worldwide gross. Once again, I used descriptive statistics to find the mean and median of most profitable months. I concluded that the summer months, specifically June and July, were the best times to release a movie.
-![alt text](https://raw.githubusercontent.com/rcasey106/dsc-phase-1-project-v2-3/master/domestic.png)
+![alt text]
 
 
 ## Discussion and Conclusion
