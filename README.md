@@ -22,7 +22,9 @@ To find the most profitable genres, I decided to merge all three data frames tog
  
 To find the most profitable writers and directors, I merged the genre dataset with the crew dataset. I dropped the duplicates. Then, using descriptive statistics, used the mean to find the writers and directors with most profitable movies. 
 To find the most profitable months to release a movie, I created a new data frame to include the release date and worldwide gross. Once again, I used descriptive statistics to find the mean and median of most profitable months. I concluded that the summer months, specifically June and July, were the best times to release a movie.
- 
+![alt text](https://raw.githubusercontent.com/rcasey106/dsc-phase-1-project-v2-3/master/domestic.png)
+
+
 ## Discussion and Conclusion
 I was surprised by some results, especially time of the year to release a movie, which was June and July.  I expected December to be more profitable than what the data showed
 The most popular genres include sci-fi and adventure. This was not as surprising to me as most of the most popular movies of all time include some adventure in it. Movies such as Star Wars and Star Trek are also high grossing movies in the sci-fi genre.
