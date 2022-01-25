@@ -5,7 +5,7 @@ I decided to review three different variables: genres, directors and writers, an
 
 ## The Data:
 The data I used for this project was:
--	Genres
+-	Genres: 
       - [imdb.title.basics](https://github.com/rcasey106/dsc-phase-1-project-v2-3/tree/master/zippedData)
       - [imdb.title.rating](https://github.com/rcasey106/dsc-phase-1-project-v2-3/tree/master/zippedData)
    	- [bom.movie_gross](https://github.com/rcasey106/dsc-phase-1-project-v2-3/tree/master/zippedData)
@@ -17,14 +17,14 @@ The data I used for this project was:
       - [tn.movie.budgets](https://github.com/rcasey106/dsc-phase-1-project-v2-3/tree/master/zippedData)
 
 ## Methodology & Results:
-To find the most profitable genres, I decided to merge all three data frames together to get all the data into one data frame. I then dropped the null values from the dataset.  I used the median because alt textthe histogram showed an abnormal distribution. I found the most profitable domestic and most profitable foreign genres.
+To find the most profitable genres, I decided to merge all three data frames together to get all the data into one data frame. I then dropped the null values from the dataset.  I used the median because alt textthe histogram showed an abnormal distribution. I found the most profitable domestic and most profitable foreign genres. These two graphs show the top ten domestic and top ten foreign genres by gross.
 ![alt text](https://raw.githubusercontent.com/rcasey106/dsc-phase-1-project-v2-3/master/foreign.png)
 ![alt text](https://raw.githubusercontent.com/rcasey106/dsc-phase-1-project-v2-3/master/domestic.png)
 
-To find the most profitable writers and directors, I merged the genre dataset with the crew dataset. I dropped the duplicates. Then, using descriptive statistics, used the mean to find the writers and directors with most profitable movies. 
+To find the most profitable writers and directors, I merged the genre dataset with the crew dataset. I dropped the duplicates. Then, using descriptive statistics, used the mean to find the writers and directors with most profitable movies. These graphs show how much, on average, each of these writers' an directors' movies gross.
 ![alt text](https://raw.githubusercontent.com/rcasey106/dsc-phase-1-project-v2-3/master/writers.png)
 ![alt text](https://raw.githubusercontent.com/rcasey106/dsc-phase-1-project-v2-3/b83143a58ddb8e0dd64cc301f305482775d26720/directors.png)
-To find the most profitable months to release a movie, I created a new data frame to include the release date and worldwide gross. Once again, I used descriptive statistics to find the mean and median of most profitable months. I concluded that the summer months, specifically June and July, were the best times to release a movie.
+To find the most profitable months to release a movie, I created a new data frame to include the release date and worldwide gross. Once again, I used descriptive statistics to find the mean and median of most profitable months. I concluded that the summer months, specifically May, June and July, were the best times to release a movie.
 ![alt text](https://raw.githubusercontent.com/rcasey106/dsc-phase-1-project-v2-3/master/ww_gross_month.png)
 
 
@@ -36,6 +36,6 @@ The most profitable writers are Joe Robert Cole (Black Panther), Warren Ellis (I
 And Steven McNiven (Logan).
 
 ## Final Recommendations:
-1.	Recommend releasing movies in June or July
+1.	Recommend releasing movies in May, June or July
 2.	Recommend Sci-fi and adventure movies, and avoid war and documentary movies
 3.	Recommend using as Joe Robert Cole, Warren Ellis or Steven McNiven as writers and Josh Whedon, Adam Green, or Jennifer Lee as directors.
